@@ -4,7 +4,7 @@
 # Originally written for Fedora-Dockerfiles by
 #   scollier <scollier@redhat.com>
 
-FROM registry.access.redhat.com/rhel7
+FROM registry.access.redhat.com:rhel7
 #MAINTAINER The CentOS Project <cloud-ops@centos.org>
 
 RUN yum -y update; yum clean all
